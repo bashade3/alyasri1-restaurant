@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>مطعم الياسري</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "Tahoma", Arial, sans-serif;
+      background: #0f0f14;
+      color: #ffffff;
+      line-height: 1.8;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    header {
+      text-align: center;
+      padding: 50px 20px;
+      background: linear-gradient(135deg, #ffb21a, #ff3d7f);
+      color: #000;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+      font-weight: bold;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 16px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 15px;
+      background: #16161f;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      padding: 8px 14px;
+      border-radius: 20px;
+      background: #222233;
+      font-size: 14px;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      background: #ffb21a;
+      color: #000;
+    }
+
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    .badge {
+      text-align: center;
+      color: #ffb21a;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .title {
+      text-align: center;
+      font-size: 26px;
+      margin-bottom: 15px;
+    }
+
+    .box {
+      background: #181824;
+      border-radius: 16px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    .menu-item {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid #2a2a3a;
+      padding: 12px 0;
+    }
+
+    .menu-item:last-child {
+      border-bottom: none;
+    }
+
+    .price {
+      color: #ffb21a;
+      font-weight: bold;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 22px;
+      background: linear-gradient(135deg, #ffb21a, #ff3d7f);
+      color: #000;
+      border-radius: 30px;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px 15px;
+      background: #0a0a10;
+      color: #aaa;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>مطعم الياسري</h1>
+  <p>أكل عراقي أصيل • مشاوي • جلسات عائلية</p>
+</header>
+
+<nav>
+  <a href="#menu">المنيو</a>
+  <a href="#about">عن المطعم</a>
+  <a href="#contact">تواصل</a>
+</nav>
+
+<section>
+  <div class="badge">🔥 طازج يوميًا • توصيل سريع • نظافة وجودة</div>
+  <h2 class="title">طعم عراقي يفتح النفس… من أول لقمة 💛</h2>
+
+  <div class="box">
+    مرحبًا بكم في <strong>مطعم الياسري</strong><br>
+    نقدم أشهى الأكلات العراقية من المشاوي والكباب والتشريب<br>
+    مع جلسات عائلية وخدمة سريعة.
+  </div>
+</section>
+
+<section id="menu">
+  <h2 class="title">المنيو</h2>
+
+  <div class="box">
+    <div class="menu-item">
+      <span>كباب الياسري</span>
+      <span class="price">—</span>
+    </div>
+    <div class="menu-item">
+      <span>مشاوي مشكلة</span>
+      <span class="price">—</span>
+    </div>
+    <div class="menu-item">
+      <span>تشريب لحم</span>
+      <span class="price">—</span>
+    </div>
+    <div class="menu-item">
+      <span>برياني</span>
+      <span class="price">—</span>
+    </div>
+  </div>
+
+  <div style="text-align:center">
+    <a class="btn" href="#contact">اطلب الآن</a>
+  </div>
+</section>
+
+<section id="about">
+  <h2 class="title">عن مطعم الياسري</h2>
+  <div class="box">
+    مطعم عراقي يقدم وصفات أصلية بنكهة البيت<br>
+    نهتم بالنظافة والجودة وراحة الزبائن<br>
+    ونسعى دائمًا لتقديم الأفضل.
+  </div>
+</section>
+
+<section id="contact">
+  <h2 class="title">تواصل معنا</h2>
+  <div class="box">
+    📍 العنوان: اكتب العنوان هنا<br>
+    ☎️ الهاتف: <a href="tel:07744339777">07744339777</a><br>
+    🕒 الدوام: 12 ظهرًا – 1 بعد منتصف الليل
+    <br><br>
+    <a class="btn" href="https://wa.me/9647744339777" target="_blank">
+      تواصل واتساب
+    </a>
+  </div>
+</section>
+
+<footer>
+  © 2026 مطعم الياسري — جميع الحقوق محفوظة
+</footer>
+
+</body>
+</html>
